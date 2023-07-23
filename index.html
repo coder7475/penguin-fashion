@@ -17,11 +17,11 @@
 	}
     </style>
 </head>
-<body class="font-['Bebas_Neue'] ">
+<body class="font-['Bebas_Neue']">
     <header class="bg-[#FFFBF0]">
 
         <!-- navbar -->
-        <nav class="flex flex-col md:flex-row justify-around items-center ml-10 mt-2">
+        <nav class="flex flex-col md:flex-row justify-around items-center">
 		    <div class="snap-center">
                 <img class="md:w-6/12 w-full rounded-md" src="./icons/logo.png" alt="penguin fashion">
 		    </div>
@@ -64,10 +64,10 @@
 
     </header>
 
-    <main>
+    <main class="my-10">
 
         <!-- women's jacket  -->
-        <div class="m-4 xl:m-32 rounded-2xl">
+        <div class="m-4 max-w-screen-xl rounded-2xl mx-auto">
             <h1 class="text-[#363958] text-5xl">Women Jacket</h1>
             <div class="grid lg:grid-cols-3 gap-4 grid-cols-1">
                 <div class="font-roboto flex flex-col gap-4 shadow-lg shadow-slate-200 p-4 justify-center">
@@ -127,7 +127,7 @@
 
         <!-- men's jacket  -->
 
-        <div class="m-4 xl:m-32 rounded-2xl">
+        <div class="m-4 max-w-screen-xl mx-auto rounded-2xl">
             <h1 class="text-[#363958] text-5xl">Men Jacket</h1>
             <div class="grid lg:grid-cols-3 gap-4 grid-cols-1">
                 <div class="font-roboto flex flex-col gap-4 shadow-lg shadow-slate-200 p-4 justify-center">
@@ -187,8 +187,42 @@
 
     </main>
 
-    <footer>
+    <footer class="max-w-screen-lg mx-auto my-10 font-roboto">
+        <div class="flex flex-col lg:flex-row gap-20 items-center justify-center">
+            <div class="flex flex-col gap-4 w-1/2">
+                <div class="flex items-center gap-8 shadow-lg shadow-slate-200">
+                    <img src="./icons/house.png" alt="house icon" class="w-16">
+                    <div>
+                        <h3 class="text-[#363968] text-2xl font-bold">Find the Perfect Fit</h3>
+                        <p class="text-[#3E3E3E] font-normal text-base">Everybody is different, which is why we <br>
+                            offer styles for every body.</p>
+                    </div>
+                </div>
+                
+                <div class="flex items-center gap-8 shadow-lg shadow-slate-200">
+                    <img src="./icons/box.png" alt="box icon" class="w-16">
+                    <div>
+                        <h3 class="text-[#363968] text-2xl font-bold">Free Exchanges</h3>
+                        <p class="text-[#3E3E3E] font-normal text-base">One of the many reasons you can shop
+                        <br>
+                        with peace of mind.</p>
+                    </div>
+                </div>
 
+                <div class="flex items-center gap-8 shadow-lg shadow-slate-200" >
+                    <img src="./icons/question.png" alt="question icon" class="w-16">
+                    <div>
+                        <h3 class="text-[#363968] text-2xl font-bold">Contact Our Seller</h3>
+                        <p class="text-[#3E3E3E] font-normal text-base">They are here to help you. That's quite 
+                             <br>
+                             literally what we pay them for.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="w-1/2">
+                <img src="./images/shopping.png" alt="shopping picture">
+            </div>
+        </div>
     </footer>
 
 </body>
